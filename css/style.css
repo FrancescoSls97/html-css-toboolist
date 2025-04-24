@@ -1,0 +1,30 @@
+/* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+/* generics */
+
+header{
+    background-color: white;
+}
+
+body{
+    background-color: #F6F8F9;
+
+}
+
+/* style specs */
+
+.logo{
+    padding: 10px;
+}
+
+h1{
+    display: inline;
+    font-size: 3rem;
+}
