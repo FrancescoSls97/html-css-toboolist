@@ -9,14 +9,35 @@
 
 /* generics */
 
-header{
-    background-color: white;
-}
+
 
 body{
     background-color: #F6F8F9;
 
 }
+
+main{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.container{
+    background-color: white;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.uppercard{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5pz;
+    margin-bottom: 2px;
+}
+
 
 /* style specs */
 
@@ -27,4 +48,24 @@ body{
 h1{
     display: inline;
     font-size: 3rem;
+}
+
+.white_bg{
+    background-color: white;
+}
+
+.blue_button{
+    background-color: #47ADF1;
+    color: white;
+    border: solid;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.searchbar{
+    background-color: white;
+    color: lightgray;
+    border: solid;
+    padding: 10px;
+    border-radius: 8px;
 }
