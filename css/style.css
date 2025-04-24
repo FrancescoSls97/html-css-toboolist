@@ -35,7 +35,20 @@ main{
 .uppercard{
     border-top-left-radius: 5px;
     border-top-right-radius: 5pz;
-    margin-bottom: 2px;
+    margin-bottom: 10px;
+}
+
+.bottomcard{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 10px;
+}
+
+li{
+    list-style-position: inside;
+    list-style-type: none;
+    font-size: 1rem;
+    padding: 1rem;
 }
 
 
@@ -68,4 +81,62 @@ h1{
     border: solid;
     padding: 10px;
     border-radius: 8px;
+}
+
+.done{
+    color: green;
+    border: solid;
+    border-color: green;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.undone{
+    color: red;
+    border: solid;
+    border-color: red;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.editorial{
+    background-color: #45ABE9;
+    color: #F6F8F9;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.goals{
+    background-color: #9C72E4;
+    color: #F6F8F9;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.recruiting{
+    background-color: #64C0A9;
+    color: #F6F8F9;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.mobile{
+    background-color: #F29E33;
+    color: #F6F8F9;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.website{
+    background-color: #D863A0;
+    color: #F6F8F9;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.sales{
+    background-color: #B0C926;
+    color: #F6F8F9;
+    border-radius: 20px;
+    padding: 0.5rem;
 }
